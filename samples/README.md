@@ -1,4 +1,4 @@
-# tegrwf
+# README generator
    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Table of Contents
 * [Description](#description)
@@ -10,36 +10,36 @@
 * [Questions](#questions) 
 
  ## Description 
- werget
+ This application generates a README.md file with user input into the terminal. 
 
  ## Installation
  In order to install the necessary dependencies , open the console and run :
- tegrw
+  First install Node JS onto your computer to ensure that you are able to answer the prompts on the command line.After installing Node JS - then run “npm init” in the command line. Afterwards, run “npm install inquirer” in the command line to obtain the packages needed to use the application properly.
 
 
  ## Usage
- ewr
+ In the command line type “node index.js” to start the program to generate your README.md file! 
 
 ## Contributing
-rewethy
+Lu Summers
 
 ## Tests
 In order to test - open the console and run :
-rtgerfwe
+None at this time
 
 ## Questions
 IF you have any questions, feel free to contact me.<br/>
 
-ryterwe  at wrte <br/>
+ Lu Summers  at https://github.com/LuSummers <br/>
 or EMAIL ME: 
-yrterw <br/>
+LuSummers@gmail.com <br/>
 
  ### License
  MIT License
  <br/>
  
 
-    Copyright 2022 by ewrtr
+    Copyright 2022 by Lunice
     
     Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
     

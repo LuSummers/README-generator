@@ -80,7 +80,7 @@ const promptUser = () => {
           {
           type: 'input',
           name: 'contributing',
-          message: 'Any contributitors? (Required)',
+          message: 'Any additional contributors? (Required)',
           validate: contributorInput => {
             if (contributorInput) {
               return true;
