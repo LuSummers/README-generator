@@ -1,12 +1,12 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs= require('fs');
-const {message} =require('statuses');
-
+const path =require('path');
+const generateMarkdown =require('./utils/generateMarkdown')
 
 // TODO: Create an array of questions for user input
 const promptUser = () => {
-    return inquirer.prompt([
+      inquirer.prompt([
         
         
         //title//
@@ -70,7 +70,7 @@ const promptUser = () => {
         //license
 
         {
-            type: 'checkbox',
+            type: 'list',
             name: 'license',
             message: 'What did you this project with?',
             choices: ['MIT License', 'Mozilla Public License', 'IBM License', 'Eclipse Public License', 'ISC license', 'N/A']
@@ -159,14 +159,19 @@ const promptUser = () => {
     }
   },
     ])
+    .then(answers =>{
+      writeToFile("README.md",answers) 
+    })
 
-  
+}
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+  fs.writeFileSync(path.join(__dirname,"/samples/",fileName),generateMarkdown(data))
+}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {promptUser()}
 
 // Function call to initialize app
 init();
