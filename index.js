@@ -28,7 +28,7 @@ const promptUser = () => {
         {
           type: 'input',
           name: 'description',
-          message: 'Provide a description of the project (Required)',
+          message: 'Please provide a brief description of the project (Required)',
           validate: descriptionInput => {
             if (descriptionInput) {
               return true;
@@ -72,15 +72,15 @@ const promptUser = () => {
         {
             type: 'list',
             name: 'license',
-            message: 'What did you this project with?',
-            choices: ['MIT License', 'Mozilla Public License', 'IBM License', 'Eclipse Public License', 'ISC license', 'N/A']
+            message: 'What license did you use for your project?',
+            choices: ['MIT License', 'Perl License', 'IBM License','N/A']
           },
 
           //contributing
           {
           type: 'input',
-          name: 'contribution',
-          message: 'Any contributitors (Required)',
+          name: 'contributing',
+          message: 'Any contributitors? (Required)',
           validate: contributorInput => {
             if (contributorInput) {
               return true;
@@ -93,8 +93,8 @@ const promptUser = () => {
 
           //tests
          { type: 'input',
-          name: 'test',
-          message: 'Tests used (Required)',
+          name: 'tests',
+          message: 'What tests are used/needed? (Required)',
           validate: testInput => {
             if (testInput) {
               return true;
@@ -107,7 +107,7 @@ const promptUser = () => {
     //Questions -name/link
         {
           type: 'input',
-          name: 'name',
+          name:  'name',
           message: 'What is your name? (Required)',
           validate: nameInput => {
             if (nameInput) {
