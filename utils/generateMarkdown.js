@@ -198,7 +198,6 @@ function generateMarkdown(data) {
  ${data.description}
 
  ## Installation
- In order to install the necessary dependencies , open the console and run :
  ${data.installation}
 
 
@@ -209,7 +208,6 @@ function generateMarkdown(data) {
 ${data.contributing}
 
 ## Tests
-In order to test - open the console and run :
 ${data.tests}
 
 ## Questions
