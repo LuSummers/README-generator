@@ -1,4 +1,4 @@
-# README generator
+#  README generator
   [![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)
 ## Table of Contents
 * [Description](#description)
@@ -13,24 +13,22 @@
  This application generates a README.md file with user input into the terminal. 
 
  ## Installation
- In order to install the necessary dependencies , open the console and run :
  First install Node JS onto your computer to ensure that you are able to answer the prompts on the command line. After installing Node JS : 1. Run “npm init” in the command line.  2. Run “npm install inquirer” in the command line to obtain the packages needed to use the application properly.
 
 
  ## Usage
- n the command line type “node index.js” to initiate the program to generate your README.md file! 
+ In the command line type “node index.js” to initiate the program to generate your README.md file! 
 
 ## Contributing
 Lu Summers
 
 ## Tests
-In order to test - open the console and run :
 None at this time
 
 ## Questions
 IF you have any questions, feel free to contact me.<br/>
 
- Lu Summers  at https://github.com/LuSummers <br/>
+Lu Summers  at https://github.com/LuSummers <br/>
 or EMAIL ME: 
 LuSummers@gmail.com <br/>
 
