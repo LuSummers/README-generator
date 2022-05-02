@@ -14,8 +14,10 @@ The user will have to install Node JS to their computer in order to perform the 
 ## Website
 https://github.com/LuSummers/README-generator
 
-Here are some videos of the application running. Although no licenses were used for this program, one was selected to provide a visual example. 
 
+Here is the video of the application running. Although no licenses were used for this program, one was selected to provide a visual example. 
+
+https://drive.google.com/file/d/1z4ZnT5SnIBs1YFj1EEwO1JJmEYpF08Op/view
 
 
 ## Contribution
